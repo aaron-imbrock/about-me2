@@ -138,3 +138,24 @@ let count =5;
      alert("your favorite book " + book2);
 }
     
+function q1() {
+    let q1 = prompt("What is the first number?");
+    return q1;
+}
+
+function q2() {
+    let q1 = prompt("What is the second number?");
+    return q1;
+}
+
+function question(a,b) {
+    if (a > b) {
+        alert(`${a} is greater than ${b}`);
+    } else if (b > a) {
+        alert(`${b} is greater than ${a}`);
+    } else {
+        alert(`${a} is equal to ${b}`);
+    } 
+}
+
+question(q1(),q2())
